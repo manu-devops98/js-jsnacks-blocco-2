@@ -12,7 +12,7 @@ function isEven(num) {
 }
 
 for (let i = 0; i < numbers.length; i++) {
-    if (!(isEven(numbers[i]))) {
+    if (!(isEven(i))) {
         sum += numbers[i];
     }
 }
